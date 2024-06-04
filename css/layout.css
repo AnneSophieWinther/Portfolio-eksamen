@@ -1,4 +1,4 @@
-/* styles.css */
+
 * {
   box-sizing: border-box;
 }
@@ -18,8 +18,8 @@ header {
 }
 
 .logo img {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
 }
 
 .menu {
@@ -52,7 +52,6 @@ header {
   width: 30px;
   height: 21px;
   cursor: pointer;
-  
 }
 
 .menu-icon-line {
