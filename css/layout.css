@@ -109,21 +109,48 @@ img {
     gap: 1em;
   }
 
-  .grid2_1-1{
-  display: grid;
+  .grid2_1-1 {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
   }
 
-   .grid3_1-1{
-  display: grid;
+  .grid3_1-1 {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
   }
 
-   .grid4_1-1{
-  display: grid;
+  .grid4_1-1 {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
   }
+
+  .gridtema2_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+
+  .gridtema02_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+
+  .gridnederst_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-container a {
+  margin-bottom: 10px;
 }
