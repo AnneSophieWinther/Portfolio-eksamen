@@ -4,6 +4,75 @@ body {
 
 h1 {
   color: #081f5c;
-  font-size: xx-large;
+  font-size: 50px;
+  font-family: Facelio;   
+  
+  
 }
+
+p {
+   color: #081f5c;
+  max-width: 55ch;
+  font-family: TIMESS_;
+  font-size: 20px;
+}
+
+/* hover effekt */
+.image {
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  display: block;
+  text-decoration: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(217, 208, 199, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.overlay-text {
+  color: #4d3d34;
+  font-size: 20px;
+  text-align: center;
+}
+
+.image-container:hover .image {
+  transform: scale(1.1); /* Scale image on hover */
+}
+
+.image-container:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+
+
+@font-face {
+  font-family: "Facelio";
+  src: url("../fonts/Facelio.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: "TIMESS_";
+  src: url("../fonts/TIMESS__.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} 
 
