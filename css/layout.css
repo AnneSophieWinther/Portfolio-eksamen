@@ -107,6 +107,7 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1em;
     margin-top: 5%;
+    padding: 10px;
   }
 
   .grid1_1-1 {
