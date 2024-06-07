@@ -33,6 +33,11 @@ p {
   font-size: 20px;
 }
 
+ul {
+  font-family: TIMESS_;
+  color: #081f5c;
+}
+
 /* hover effekt */
 .image {
   object-fit: cover;

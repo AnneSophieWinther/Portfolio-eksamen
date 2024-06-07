@@ -98,7 +98,7 @@ img {
     gap: 1em;
   } */
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   section {
     padding: 3em;
   }
