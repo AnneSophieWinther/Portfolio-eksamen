@@ -120,12 +120,14 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
+    /* background-color: #bdbfaa; */
   }
 
   .grid3_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
+    
   }
 
   .grid4_1-1 {
