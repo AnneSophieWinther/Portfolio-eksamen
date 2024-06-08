@@ -5,6 +5,7 @@
 body {
   margin: 0;
   /* font-family: Arial, sans-serif; */
+  justify-content: center;
 }
 
 header {
@@ -67,8 +68,8 @@ img {
   max-width: 100%;
   height: auto;
   /* align-items: center; */
-  padding: 10%;
-  margin-left: 10%;
+  /* padding: 10%;
+  margin-left: 10%; */
 }
 
 @media (max-width: 800px) {

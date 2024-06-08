@@ -1,15 +1,17 @@
 body {
   /* background-color: #F4DBDB; */
-  background-color: #F4DBDB
+  background-color: #f4dbdb;
 }
 
 h1 {
   color: #081f5c;
   font-size: 50px;
   font-family: Facelio;
-  /* margin: 50px; */
+  margin: 50px; 
   padding: 10px;
+
 }
+
 
 h2 {
   color: #081f5c;
@@ -32,13 +34,14 @@ p {
   max-width: 55ch;
   font-family: TIMESS_;
   font-size: 20px;
+  line-height: 1.5;
+
 }
 
 ul {
   font-family: TIMESS_;
   color: #081f5c;
 }
-
 
 /* hover effekt */
 .image {
@@ -61,7 +64,7 @@ ul {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #cad4ee;
+  background-color: #cad4eead;
   display: flex;
   justify-content: center;
   align-items: center;
