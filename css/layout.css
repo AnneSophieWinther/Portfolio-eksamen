@@ -120,7 +120,7 @@ img {
   .grid1_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    gap: 5em;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -128,48 +128,58 @@ img {
   .grid2_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    gap: 5em;
     /* background-color: #bdbfaa; */
-     margin-left: 20%;
-    margin-right: 10%;
-  }
-
-  .grid3_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
     margin-left: 20%;
     margin-right: 10%;
   }
 
-  .grid4_1-1 {
+  .gridtema3_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
-     margin-left: 20%;
+    gap: 5em;
+    margin-left: 20%;
+    margin-right: 10%;
+  }
+
+  .gridtema4_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5em;
+    margin-left: 20%;
+    margin-right: 10%;
+  }
+
+   .gridtema5_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5em;
+    margin-left: 20%;
     margin-right: 10%;
   }
 
   .gridtema2_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    gap: 5em;
     margin-left: 10%;
     margin-right: 10%;
   }
+ 
+ 
 
-  .gridtema02_1-1 {
+  /* .gridtema02_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    gap: 5em;
     margin-left: 10%;
     margin-right: 10%;
-  }
+  } */
 
   .gridnederst_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    gap: 5em;
     /* margin-left: 20px;
     margin-right: 30px; */
     margin-left: 10%;
