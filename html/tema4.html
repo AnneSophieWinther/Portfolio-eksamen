@@ -70,7 +70,7 @@
           </p>
         </div>
         <div>
-          <h2>Eksempel på kode</h2>
+          <h2>Eksempel på kode i Javascript</h2>
           <img
             src="../img/procesbilledetema4.png"
             alt="billede 2"
@@ -78,22 +78,30 @@
             height="900"
           />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-            repudiandae tenetur consequuntur aspernatur ipsum dolorum saepe et,
-            doloribus dicta ad soluta id eligendi? Rem, beatae dicta earum
-            temporibus quam aspernatur.
+            Mine "kløverfigurer" får klassen "fald", som er en defineret
+            animation i CSS. Herefter lytter siden efter, således at når der
+            klikkes på et (faldende) kløver-element, så aktiveres funktionen
+            "ClickKlover". Point optjenes ved at trykke på kløverfiguren.
+            Efterfølgende fjernes event listeneren for klik, hvilket forhindrer
+            yderligere pointoptjening ved gentagne klik på samme kløver-element.
+            Elementet får klassen "frys", og spriten får klassen "forsvind" for
+            at fjerne animationen. Point øges og bliver opdateret på skærmen.
+            Der lyttes herefter efter afslutningen af animationen, og funktionen
+            "resetKlover" aktiveres.
           </p>
           <img
-            src="../img/procesbilledetema4.0.png"
+            src="../img/procesbilledetema4.resetklover.png"
             alt="billede 2"
             width="900"
             height="900"
           />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            maiores perspiciatis non doloremque nihil vero nostrum optio
-            provident ad rem enim sed velit sapiente esse aperiam, fugit officia
-            cumque ex.
+            I funktionen "resetKlover" fjernes alle klasser fra både container
+            og sprite. Derefter tildeles figuren en ny position, som er lavet
+            ved hjælp af genRndNo, hvilket sikrer, at figurerne falder på
+            forskellige og uforudsigelige steder på skærmen. Klassen "fald"
+            tilføjes, og siden lytter igen efter klik på kløver-elementet,
+            hvilket leder os tilbage til "ClickKlover" igen.
           </p>
         </div>
       </section>
@@ -109,7 +117,6 @@
         <div>
           <h2>Kompetencer</h2>
           <ul>
-            <li></li>
             <li>Billede formater</li>
             <li>Javascript</li>
             <li>Formgivning og kompositionsprincipper</li>
