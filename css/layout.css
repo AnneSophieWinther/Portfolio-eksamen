@@ -111,7 +111,7 @@ img {
   .grid1_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 6em;
+    gap: 1em;
     margin-left: 10%;
     margin-right: 10%;
   }
