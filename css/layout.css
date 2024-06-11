@@ -120,7 +120,7 @@ img {
   .grid1_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5em;
+    gap: 6em;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -150,7 +150,7 @@ img {
     margin-right: 10%;
   }
 
-   .gridtema5_1-1 {
+  .gridtema5_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5em;
@@ -165,8 +165,6 @@ img {
     margin-left: 10%;
     margin-right: 10%;
   }
- 
- 
 
   /* .gridtema02_1-1 {
     display: grid;
