@@ -17,10 +17,6 @@ a {
   font-weight: bold;
 }
 
-/* .link-container{
-  text-align: center;
-} */
-
 a:hover {
   color: white;
   text-decoration: underline;
@@ -37,8 +33,6 @@ h3 {
   font-family: Facelio;
   font-size: 25px;
 }
-
-
 
 hr {
   margin: 10px;
